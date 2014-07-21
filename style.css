@@ -1,0 +1,37 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 25px;
+}
+
+#text {
+	font-family: 'Helvetica';
+	padding-left: 7px;
+	padding-top: 7px;
+	color: #FFF;
+	text-align: center;
+}
+
+.floatBottom {
+	background: #000;
+	padding: 2px;
+	color: #FFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 450px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    opacity: 0.8;
+    margin-left: 40px;
+    overflow:hidden;
+}
