@@ -36,6 +36,7 @@ function displayTrack(track)
     //albumimg = (track[0].getElementsByTagName("image")[0].childNodes[0].nodeValue);
     //var imgobject = $("<img />").attr("src", albumimg);
     
-    txt = "<div id='text'><marquee behavior='alternate' scrollamount='3' direction='left' width='425'> #np - " + artist + " - " + song + "</marquee></div>";
+    txt = "<div id='text' style='padding-top: 5px; color: #FFF;'><marquee behavior='scroll' scrollamount='5' direction='left' width='425'><a href='http://www.last.fm/user/jonnydoesmusic' target='_blank' style='color: white; font-family: Arial;'>Currently listening to: " 
+    + artist + ' - "' + song + '"' + " &mdash; Click to view my LastFM" + "</a></marquee></div>";
     return txt;
 }
