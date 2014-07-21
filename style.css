@@ -21,6 +21,8 @@ body a:visited {
 	text-align: center;
 }
 
+
+/* Float css.  Should work on your webpage */
 .floatBottom {
   background: #000;
   padding: 2px;
