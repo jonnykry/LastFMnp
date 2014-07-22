@@ -42,7 +42,7 @@ function displayTrack(track)
         albumimg = (track[0].getElementsByTagName("image")[0].childNodes[0].nodeValue);
     } catch(err) {
         if(albumimg == null) {    
-            txt = "<div id='text'><a href='http://www.last.fm/user/jonnydoesmusic' target='_blank'>" 
+            txt = "<div id='text' style='padding-top: 10px'><a href='http://www.last.fm/user/jonnydoesmusic' target='_blank'><strong>" 
             + artist + '</strong> - "' + song + '"' + "</a></div>";
             return txt;            
         }
