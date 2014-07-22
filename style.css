@@ -9,6 +9,10 @@ body {
     padding: 25px;
 }
 
+body a {  
+    text-decoration: underline;
+}
+
 body a:visited {
     color: inherit;
 }
@@ -18,7 +22,6 @@ body a:visited {
 	padding-left: 10px;
 	padding-top: 7px;
 	color: #FFF;
-  overflow: hidden;
   text-overflow: ellipsis;  
 }
 
@@ -42,6 +45,7 @@ body a:visited {
   margin-right: 40px;
   z-index: 9998!important;
   overflow: hidden;
+  text-overflow: ellipsis;  
 }
 
 .floatBottom a {
