@@ -17,35 +17,36 @@ body a:visited {
     color: inherit;
 }
 
+/* Text CSS ... Element is added from plugin.js script */
+
 #text {
-	font-family: 'Helvetica';
-	padding-left: 10px;
-	padding-top: 7px;
-	color: #FFF;
-  text-overflow: ellipsis;  
+  margin: 5px 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
+#text a {
+  color: #FFF;
+}
 
-/* Float css.  Should work on your webpage */
+/* Float CSS ... Pushes element where you want it */
+
 .floatBottom {
   background: #000;
-  opacity: 0.8
+  opacity: 0.8;
   padding: 2px;
-  color: #FFF;
   position: fixed;
   right: 0;
   bottom: 0;
   height: 45px;
-  width: 450px;
-  border: 2px solid gray;
+  width: 350px;
   border-radius: 15px;
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  margin-right: 40px;
+  margin-right: 10px;
   z-index: 9998!important;
-  overflow: hidden;
-  text-overflow: ellipsis;  
 }
 
 .floatBottom a {
