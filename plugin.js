@@ -7,8 +7,8 @@ var i = 0;
 
 // If you want album cover:
 
-// src = track[0].getElementsByTagName("image")[0].childNodes[0].nodeValue;
-// document.write("<img src='" + src + "'/>");
+src = track[0].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+document.write();
 
 var txt = displayTrack(track);
 
@@ -33,14 +33,11 @@ function displayTrack(track)
     album = (track[0].getElementsByTagName("album")[0].childNodes[0].nodeValue);
     
     // more album cover things
-
-    //albumimg = (track[0].getElementsByTagName("image")[0].childNodes[0].nodeValue);
-    //var imgobject = $("<img />").attr("src", albumimg);
-    
+    albumimg = (track[0].getElementsByTagName("image")[0].childNodes[0].nodeValue);
 
     // This text contains the html that is appended to that page.
     // Edit the link to contain your username. 
-    txt = "<div id='text' style='padding-top: 5px; color: #FFF;'><marquee behavior='scroll' scrollamount='5' direction='left' width='425'><a href='http://www.last.fm/user/jonnydoesmusic' target='_blank' style='color: white; font-family: Arial;'>Currently listening to: " 
-    + artist + ' - "' + song + '"' + " &mdash; Click to view my LastFM" + "</a></marquee></div>";
+    txt = "<div id='text'><a href='http://www.last.fm/user/jonnydoesmusic' target='_blank'>" 
+    + "<img src='" + albumimg + "' style='padding-right: 5px;'/><strong> " + artist + '</strong> - "' + song + '"' + "</a></div>";
     return txt;
 }

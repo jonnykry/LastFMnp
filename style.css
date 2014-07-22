@@ -15,31 +15,33 @@ body a:visited {
 
 #text {
 	font-family: 'Helvetica';
-	padding-left: 7px;
+	padding-left: 10px;
 	padding-top: 7px;
 	color: #FFF;
-	text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;  
 }
 
 
 /* Float css.  Should work on your webpage */
 .floatBottom {
   background: #000;
+  opacity: 0.8
   padding: 2px;
   color: #FFF;
   position: fixed;
   right: 0;
   bottom: 0;
-  height: 30px;
+  height: 45px;
   width: 450px;
   border: 2px solid gray;
-  border-radius: 5px;
+  border-radius: 15px;
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   margin-right: 40px;
   z-index: 9998!important;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .floatBottom a {
