@@ -12,7 +12,6 @@ var LASTFM_URL = 'http://www.last.fm/user/jonnydoesmusic';
 // }
 //
 
-
 $(document).ready( function() {
     var artist = null;
     var song = null;
@@ -65,7 +64,6 @@ $(document).ready( function() {
         }
 
         // This text contains the html that is appended to that page.
-        // Edit the link to contain your username.
         text = "<a href='" + LASTFM_URL + "' target='_blank'>"
             + "<img src='" + albumimg + "' style='padding-right: 5px;'/> #np - <strong>" + artist + ' - "' + song + '"' + "</strong></a>";
         widgetSelector.append(text);
