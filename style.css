@@ -19,34 +19,37 @@ body a:visited {
 
 /* Text CSS ... Element is added from plugin.js script */
 
-#text {
-  margin: 5px 10px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+#widget {
+    color: #FFF;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-#text a {
-  color: #FFF;
-}
+#widget a { color: #FFF; }
 
-/* Float CSS ... Pushes element where you want it */
+#widget .glyphicon {
+    background: none;
+    border: none;
+    padding-right: 10px;
+}
 
 .floatBottom {
-  background: #000;
-  opacity: 0.8;
-  padding: 2px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  height: 45px;
-  width: 350px;
-  border-radius: 15px;
-  border-bottom: none;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  margin-right: 10px;
-  z-index: 9998!important;
+    background: #000;
+    opacity: 0.8;
+    position: fixed;
+    padding-top: 7px;
+    padding-left: 18px;
+    right: 0;
+    bottom: 0;
+    height: 45px;
+    width: 350px;
+    border-radius: 15px;
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-right: 10px;
+    z-index: 9998!important;
 }
 
 .floatBottom a {
