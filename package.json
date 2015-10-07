@@ -1,0 +1,28 @@
+{
+  "name": "lastfmnp",
+  "version": "1.0.0",
+  "description": "LastFMnp ========",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnykry/lastfmnp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnykry/lastfmnp/issues"
+  },
+  "homepage": "https://github.com/jonnykry/lastfmnp#readme",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "reflux": "^0.2.12"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0"
+  }
+}
