@@ -4,3 +4,9 @@
 
 # API Key Storage #
 keys.json
+
+# Build #
+
+node_modules
+
+public

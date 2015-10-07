@@ -20,13 +20,11 @@ body a:visited {
 /* Text CSS ... Element is added from plugin.js script */
 
 #widget {
-    color: #FFF;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
 
-#widget a { color: #FFF; }
 
 #widget .glyphicon {
     background: none;
