@@ -1,6 +1,5 @@
 var React = require('react');
 var http = require('http');
-var $ = require('jquery');
 
 var Component = React.createClass({
 
