@@ -2,4 +2,4 @@ var React = require('react');
 
 var Component = require('./components/Component.jsx');
 
-React.render(<Component username="jonnydoesmusic" api_key="c64600ddca04dfc310703c59fe1b5230" />, document.body);
+React.render(<Component username="YOUR_USERNAME" api_key="YOUR_API_KEY" />, document.body);
