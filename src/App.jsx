@@ -1,5 +1,6 @@
 var React = require('react');
 
 var Component = require('./components/Component.jsx');
+var keys = require('../keys.json');
 
-React.render(<Component username="YOUR_USERNAME" api_key="YOUR_API_KEY" />, document.body);
+React.render(<Component username="jonnydoesmusic" api_key={keys.apikeys.key} />, document.body);

@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/jonnykry/lastfmnp#readme",
   "dependencies": {
-    "jquery": "^2.1.4",
     "react": "^0.13.3",
     "reflux": "^0.2.12"
   },
