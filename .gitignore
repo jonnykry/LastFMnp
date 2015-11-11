@@ -2,11 +2,14 @@
 .DS_Store
 .DS_Store?
 
+# Misc #
+
+.idea
+npm-debug.log
+
 # API Key Storage #
 keys.json
 
 # Build #
-
+bundle.js
 node_modules
-
-public
