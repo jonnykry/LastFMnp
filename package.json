@@ -1,10 +1,12 @@
 {
   "name": "lastfmnp",
   "version": "1.0.0",
-  "description": "LastFMnp ========",
-  "main": "app.js",
+  "description": "LastFMnp",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
   },
   "repository": {
     "type": "git",
@@ -17,11 +19,15 @@
   },
   "homepage": "https://github.com/jonnykry/lastfmnp#readme",
   "dependencies": {
-    "react": "^0.13.3",
-    "reflux": "^0.2.12"
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "request": "^2.65.0"
   },
   "devDependencies": {
-    "babelify": "^6.3.0",
-    "browserify": "^11.2.0"
+    "http-server": "^0.8.5",
+    "json-loader": "^0.5.3",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1"
   }
 }

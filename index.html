@@ -16,14 +16,22 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./node_modules/react/dist/react-with-addons.js"></script>
 </head>
 
 <body>
 
     <!-- Div where the widget is placed from js -->
-	<div id="widget" class="floatBottom">
-	</div>
+	<div id="widgetContainer">
+        <div id="widget" class="floatBottom"></div>
+    </div>
 
-	<script type="text/javascript" src="public/app.js"></script>
+    <!-- include the webpack-dev-server script so our scripts get reloaded when we make a change -->
+    <!-- we'll run the webpack dev server on port 8090, so make sure it is correct -->
+    <script src="http://localhost:8090/webpack-dev-server.js"></script>
+
+    <!-- include the bundle that contains all our scripts, produced by webpack -->
+    <!-- the bundle is served by the webpack-dev-server, so serve it also from localhost:8090 -->
+    <script type="text/javascript" src="http://localhost:8090/assets/bundle.js"></script>
 </body>
